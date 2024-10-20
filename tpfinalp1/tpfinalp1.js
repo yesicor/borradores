@@ -53,7 +53,7 @@ function mousePressed(){
   
   let = sePuedeReiniciar = ((estado===40)||(estado === 34)||(estado===28)); 
   let = sePuedeComenzar = (estado===0);
-  let = sePuedeSeguir = !((estado==11)||(estado===16));
+  let = sePuedeSeguir = !((estado==10)||(estado===16));
 
   if ((botónStart)&&(sePuedeComenzar)){
     estado=1;
