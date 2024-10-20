@@ -18,7 +18,7 @@ function cambioEstado(inicio,pantalla,indice) {
     cargarImagen(arrayImagen[pantalla]);
     strokeWeight(5);
     stroke(0);
-    fill(255);
+    fill(75, 0, 130);
     rect(20,355,600,110);
     cargarTexto(arrayTexto[pantalla]);
     if(estado<(indice-1)){
